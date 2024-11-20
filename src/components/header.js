@@ -18,7 +18,7 @@ export default function AppHeader() {
             <Nav.Link href="#Testimonials">Testimonials</Nav.Link>
             <Nav.Link href="#Pricing">Pricing</Nav.Link>
             <Nav.Link href="#Blog">Blog</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <Nav.Link href="#Contacts">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
