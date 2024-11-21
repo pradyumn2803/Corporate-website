@@ -3,6 +3,7 @@ import "./App.css";
 import AppHeader from "./components/header";
 import Hero from "./components/hero";
 import Appabout from "./components/about";
+import Appservice from "./components/services";
 function App() {
   return(
     <div className="App">
@@ -10,8 +11,9 @@ function App() {
         <AppHeader></AppHeader>
       </header>
       <main>
-        <Hero></Hero>
-        <Appabout></Appabout>
+        <Hero/>
+        <Appabout/>
+        <Appservice/>
       </main>
     </div>
   )
