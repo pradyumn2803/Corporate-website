@@ -50,7 +50,7 @@ const servicesData = [
 
 export default function Appservice() {
   return (
-    <section className="block services-block">
+    <section id="services" className="block services-block">
       <Container fluid>
         <div className="title-holder">
             <h2>OUR SERVICES</h2>
@@ -60,7 +60,7 @@ export default function Appservice() {
         {
             servicesData.map(service=>{
                 return (
-                    <Col sm={4}>
+                    <Col sm={4} className="holder">
                         <div className="icon">
                             <i className={service.icon}></i>
                         </div>
