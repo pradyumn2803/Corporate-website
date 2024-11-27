@@ -6,7 +6,8 @@ import Appabout from "./components/about";
 import Appservice from "./components/services";
 import Appworks from "./components/works";
 import Appteams from "./components/teams";
-import Apptestimonials from "./components/testimonials"
+import Apptestimonials from "./components/testimonials";
+import Appricing from "./components/price";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Appworks />
         <Appteams />
         <Apptestimonials/>
+        <Appricing/>
       </main>
     </div>
   );
